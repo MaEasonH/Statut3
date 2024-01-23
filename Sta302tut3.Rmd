@@ -1,10 +1,15 @@
 ---
-title: "The negative impact of data analysis on human rights."
-author: "HengMa"
+title: "Revevance police race and identity based data use of force"
+subtitle: "A Look Into Excluding the impact of social status and human rights, whether race directly affect the occurrence of violent incidents?"
+author: 
+  - HengMa
+thanks: "Code and data are available at: https://github.com/MaEasonH/Statut3.git"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: "As a city with a significant influx of population, Toronto has immigrants making up more than half of its population, and this is related to the city's persistently high crime rate. Many articles illustrate that ethnic diversity is one of the factors contributing to the high crime rate, but considering the complexity of society as a whole, it's difficult to definitively say that race leads to violence. This paper, by further collecting data from the Open Data Portal of the City of Toronto, aims to analyze the relevance betweent the quote and data."
 format: pdf
-editor: visual
----
+number-sections: true
 
+---
 ```{r setup, fig.pos = "!H", include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
