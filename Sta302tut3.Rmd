@@ -1,6 +1,6 @@
 ---
 title: "The negative impact of data analysis on human rights."
-Author: HengMa
+author: "HengMa"
 format: pdf
 editor: visual
 ---
@@ -36,7 +36,8 @@ knitr::kable(toronto_gender, "latex", booktabs = TRUE) %>%
 head(toronto_gender)
 ```
 
-##Introduction
+# Introduction
+
 
 As a city with a significant influx of population, Toronto has immigrants making
 up more than half of its population, and this is related to the city’s persistently
@@ -44,7 +45,7 @@ high crime rate. Many articles illustrate that ethnic diversity is one of the fa
 to analyze the problem and trends by visualizing data related to the least violent
 profession, police, and its association with violence.[@citeODT]
 
-##Varialbes 
+# Varialbes 
 
 This data set is divided into four different categories: Type of Incident, Gender of People
 Involved, Perceived Race of People Involved, and Incident Count. The Type of Incident is used
@@ -55,7 +56,7 @@ the gender of the police officer involved, and like the previous, will not be re
 and Count, as the most crucial data points for discussion, will be more explicitly laid out.
 
 
-##Revelence
+# Revelence
 
 This quote raises a significant concern about the relationship between data interpretation and human rights, emphasizing the inherent risk of selectively using data to reinforce existing societal biases and prejudices. Historically, various situations involving minimal or misunderstood data have been used to justify the oppression and marginalization of specific groups. This practice not only compromises the objectivity of the data but also poses a severe threat to fundamental human rights principles. For instance, data obtained from the Toronto database, ostensibly for studying the frequency of police violence and its potential direct correlation with race, can be misused. Conversely, this data might be employed to assert that certain races inherently possess more violent tendencies, leading to erroneous perceptions about specific ethnic groups. This misinterpretation could result in severe human rights issues, as it fosters discrimination and perpetuates harmful stereotypes.
 
@@ -65,6 +66,6 @@ Moreover, interpretations based on such weak data could be used to justify discr
 
 In summary, the handling and interpretation of data must be done carefully and responsibly, especially when it can reinforce longstanding, harmful societal biases. The proper management and interpretation of data are crucial for maintaining fairness and upholding human rights.
 
-##Conclusion
+# Conclusion
 
 Human rights are based on treating everyone equally and with respect. When data analysis supports racial prejudice or unfair treatment, it goes against these important principles. For example, with the Toronto database, if the data wrongly points to some races being more violent, it can make racial problems worse. This could lead to unfair treatment of people because of their race. Such misuse of data can change how society sees these groups and may lead to biased government policies and police actions, which is not fair and goes against human rights.
